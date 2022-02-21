@@ -10,6 +10,8 @@
 [class*="col-"] {
     flex: 0 0 auto;
 }
+
+
 @media all and (min-width:0px) {
     .col-xs-1{
         flex-basis: calc((100% / 12) * 1);
