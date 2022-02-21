@@ -1,9 +1,27 @@
-.red{
-    background-color: red;
+*{
+    font-size: 12px;
 }
-.card{
-    background-color: blue;
-    height: 100px;
-    border: 1px solid white;
+h2{
+    font-size: 2rem;
+}
 
+.container{
+    margin: 10px auto;
+}
+
+
+.card{
+    background-color: #006cfa;
+    min-height: 50px;
+    border: 1px solid white;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+}
+.card--nested{
+    min-height: 0px;
+    background-color: #00e165;
+    border: 1px solid #006cfa;
 }
